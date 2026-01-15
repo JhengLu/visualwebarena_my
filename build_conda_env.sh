@@ -46,6 +46,14 @@ else
     conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r 2>/dev/null || echo "TOS already accepted or not required"
 fi
 
+# Initialize conda for shell if not already initialized (regardless of installation path)
+if ! grep -q "conda initialize" ~/.bashrc 2>/dev/null; then
+    echo "Initializing conda for bash shell..."
+    conda init bash
+else
+    echo "Conda already initialized in ~/.bashrc, skipping..."
+fi
+
 # 6) Create conda environment if it doesn't exist
 if conda env list | grep -q "^vwa "; then
     echo "Conda environment 'vwa' already exists, skipping creation..."
