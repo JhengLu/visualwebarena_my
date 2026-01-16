@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# tar files
+*.tar*
+*.zip
+
+# pem
+*.pem
+*.cnf
+
 # C extensions
 *.so
 
