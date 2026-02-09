@@ -1,0 +1,2572 @@
+{
+  "metadata": {
+    "source_file": "/mnt/2_1/visualwebarena_my/config_files/vwa/test_classifieds.raw.json",
+    "total_templates": 75,
+    "total_tasks": 234,
+    "classification_method": "ground-truth (from sites field)",
+    "includes_difficulty": true,
+    "sites": [
+      "classifieds"
+    ]
+  },
+  "site_statistics": {
+    "classifieds": {
+      "unique_templates": 75,
+      "total_tasks": 234,
+      "percentage_of_templates": 100.0,
+      "percentage_of_tasks": 100.0,
+      "reasoning_difficulty_distribution": {
+        "medium": 76,
+        "hard": 90,
+        "easy": 68
+      },
+      "visual_difficulty_distribution": {
+        "easy": 69,
+        "medium": 78,
+        "hard": 86,
+        "mediun": 1
+      },
+      "overall_difficulty_distribution": {
+        "medium": 88,
+        "hard": 104,
+        "easy": 42
+      }
+    }
+  },
+  "templates_by_site": {
+    "classifieds": [
+      {
+        "template": "Find the {{product}} where {{detail}}.",
+        "count": 7,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2,
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 7
+          },
+          "visual": {
+            "distribution": {
+              "medium": 6,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 7
+          },
+          "overall": {
+            "distribution": {
+              "medium": 6,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 7
+          }
+        },
+        "task_ids": [
+          60,
+          61,
+          64,
+          65,
+          66,
+          67,
+          68
+        ]
+      },
+      {
+        "template": "Explore the \"{{category}}\" category, and find the {{item}}.",
+        "count": 7,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 7
+            },
+            "most_common": "medium",
+            "total": 7
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "hard": 3,
+              "medium": 3
+            },
+            "most_common": "hard",
+            "total": 7
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1,
+              "hard": 3,
+              "medium": 3
+            },
+            "most_common": "hard",
+            "total": 7
+          }
+        },
+        "task_ids": [
+          97,
+          154,
+          155,
+          156,
+          157,
+          158,
+          162
+        ]
+      },
+      {
+        "template": "Show me the {{attribute}} {{item}} {{condition}}.",
+        "count": 7,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 7
+            },
+            "most_common": "hard",
+            "total": 7
+          },
+          "visual": {
+            "distribution": {
+              "hard": 7
+            },
+            "most_common": "hard",
+            "total": 7
+          },
+          "overall": {
+            "distribution": {
+              "hard": 7
+            },
+            "most_common": "hard",
+            "total": 7
+          }
+        },
+        "task_ids": [
+          201,
+          202,
+          214,
+          215,
+          216,
+          218,
+          219
+        ]
+      },
+      {
+        "template": "Navigate to my listing {{item}} and {{action}}.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 5,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "easy": 5,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "hard": 5,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          4,
+          5,
+          75,
+          76,
+          77,
+          159
+        ]
+      },
+      {
+        "template": "Find the cheapest {{item}} {{condition}}.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 5,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "hard": 2,
+              "easy": 1,
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3,
+              "medium": 3
+            },
+            "most_common": "hard",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          81,
+          86,
+          91,
+          105,
+          117,
+          168
+        ]
+      },
+      {
+        "template": "Find the {{product}}, and tell me how much it costs in dollars.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "hard": 4,
+              "easy": 1
+            },
+            "most_common": "hard",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "medium": 5,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 4,
+              "easy": 1
+            },
+            "most_common": "hard",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          82,
+          84,
+          85,
+          96,
+          99,
+          122
+        ]
+      },
+      {
+        "template": "Tell me the {{product}}.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3,
+              "easy": 3
+            },
+            "most_common": "medium",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3,
+              "medium": 3
+            },
+            "most_common": "hard",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2,
+              "medium": 3,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          102,
+          107,
+          108,
+          128,
+          129,
+          199
+        ]
+      },
+      {
+        "template": "Navigate to the item on this page whose image {{condition}}.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 5,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3,
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3,
+              "medium": 3
+            },
+            "most_common": "easy",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          124,
+          125,
+          130,
+          132,
+          151,
+          152
+        ]
+      },
+      {
+        "template": "Show me the {{attribute}} {{item}} from the classifieds site {{description}} on OneStopMarket.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 6
+            },
+            "most_common": "hard",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "hard": 6
+            },
+            "most_common": "hard",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "hard": 6
+            },
+            "most_common": "hard",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          200,
+          207,
+          224,
+          225,
+          226,
+          227
+        ]
+      },
+      {
+        "template": "What is the {{attribute}} of {{item}}?",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 5
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "easy": 4,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "easy": 4,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          10,
+          11,
+          12,
+          13,
+          119
+        ]
+      },
+      {
+        "template": "Show me the {{item}}.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "easy": 5
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "template": "How {{quantity}} does the {{item}} have?",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 4,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "easy": 4,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "easy": 4,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          22,
+          23,
+          24,
+          49,
+          109
+        ]
+      },
+      {
+        "template": "Add a comment on the {{item}} with the title \"{{title}}\" and text \"{{comment}}\".",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2,
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          28,
+          29,
+          30,
+          57,
+          160
+        ]
+      },
+      {
+        "template": "Find the {{item}} from {{location}} {{condition}}.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "easy": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "easy": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          70,
+          74,
+          88,
+          89,
+          92
+        ]
+      },
+      {
+        "template": "Find me {{product}} that {{condition}} in the image.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2,
+              "easy": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 3,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          73,
+          78,
+          79,
+          126,
+          185
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} on this page {{condition}}.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 5
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 3,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3,
+              "hard": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          135,
+          146,
+          147,
+          191,
+          193
+        ]
+      },
+      {
+        "template": "For the {{item}}, tell me the {{detail}}.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3,
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3,
+              "medium": 2
+            },
+            "most_common": "hard",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "medium": 4,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          148,
+          149,
+          150,
+          178,
+          186
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} from {{location}} that {{condition}}.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3,
+              "medium": 2
+            },
+            "most_common": "hard",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "easy": 1,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          175,
+          176,
+          177,
+          196,
+          197
+        ]
+      },
+      {
+        "template": "Find me the {{attribute}} {{item}} from the classifieds site that {{condition}}.{{action}}",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          212,
+          217,
+          228,
+          230,
+          232
+        ]
+      },
+      {
+        "template": "Search for \"{{phrase}}\" and tell me {{detail}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2,
+              "mediun": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          40,
+          110,
+          111,
+          161
+        ]
+      },
+      {
+        "template": "I recall seeing this exact item on the site, help me find the most recent post of it. I recall {{hint}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          47,
+          48,
+          139,
+          141
+        ]
+      },
+      {
+        "template": "Find the {{item}} that {{condition}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          56,
+          204,
+          206,
+          220
+        ]
+      },
+      {
+        "template": "Find the {{product}} with {{detail}} from the image {{location}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "hard": 2
+            },
+            "most_common": "medium",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          59,
+          62,
+          63,
+          179
+        ]
+      },
+      {
+        "template": "Find the {{item}} with {{attribute}}. Add a {{rating}} rating with title \"{{title}}\" and text \"{{text}}\".",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 4
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "hard": 4
+            },
+            "most_common": "hard",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          95,
+          104,
+          133,
+          180
+        ]
+      },
+      {
+        "template": "For the {{item}} on this page {{attribute}}, tell me the {{detail}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "easy": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          163,
+          173,
+          174,
+          192
+        ]
+      },
+      {
+        "template": "Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          164,
+          165,
+          166,
+          167
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} where {{detail}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          187,
+          188,
+          189,
+          194
+        ]
+      },
+      {
+        "template": "Find me the {{attribute}} {{item}} on this site.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          0,
+          210,
+          211
+        ]
+      },
+      {
+        "template": "Find me the {{attribute}} {{item}}. It should be between {{range}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "template": "What is the email of the seller of {{item}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          14,
+          50,
+          106
+        ]
+      },
+      {
+        "template": "How many {{item}} {{criteria}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "template": "Find {{item}} and post a comment offering $10 less than their asking price.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "template": "What is the price range of {{items}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "template": "I recall seeing this exact item on the site, help me find the most recent post of it.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          44,
+          45,
+          46
+        ]
+      },
+      {
+        "template": "Find the {{product}} which {{detail}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2,
+              "easy": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          69,
+          71,
+          93
+        ]
+      },
+      {
+        "template": "Find the {{item}} on this page {{condition}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          87,
+          90,
+          94
+        ]
+      },
+      {
+        "template": "What is {{attribute}} on the {{product}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1,
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          100,
+          118,
+          120
+        ]
+      },
+      {
+        "template": "Search for \"{{phrase}}\" and navigate to the {{product}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          113,
+          127,
+          131
+        ]
+      },
+      {
+        "template": "Navigate to the {{item}} on this page {{condition}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          121,
+          123,
+          153
+        ]
+      },
+      {
+        "template": "I recall seeing this exact item on the site, tell me the email of the most recent lister of the item. I recall {{hint}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          137,
+          138,
+          140
+        ]
+      },
+      {
+        "template": "I recall seeing this exact {{item}} on the site, add a comment on its listing with the title \"{{title}}\" and text \"{{comment}}\".",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          143,
+          144,
+          145
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} that costs {{range}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          169,
+          195,
+          198
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          171,
+          172,
+          182
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} with {{detail}} from the image.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          181,
+          183,
+          184
+        ]
+      },
+      {
+        "template": "Return the links of the {{attribute}} {{items}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          6,
+          7
+        ]
+      },
+      {
+        "template": "Help me make a post selling this item and navigate to it. Price it at $10 cheaper than the most similar item on the site {{range}} (of the same color). If there are multiple similar items, use the most recent posting.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          8,
+          9
+        ]
+      },
+      {
+        "template": "What is the email of the seller of {{item}} on this page?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          15,
+          16
+        ]
+      },
+      {
+        "template": "Search for \"{{phrase}}\"{{detail}} and return the links of {{target}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "easy": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          34,
+          35
+        ]
+      },
+      {
+        "template": "Find all listings for this exact item on OSClass and compare its price to the cheapest listing on OneStopMarket. Return the link of {{target}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          36,
+          37
+        ]
+      },
+      {
+        "template": "Find the three most recent {{item}} in the \"{{category}}\" category, and tell me {{attribute}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          38,
+          39
+        ]
+      },
+      {
+        "template": "Find me the most recent {{type}} in the \"{{category}}\" category of {{item}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "easy": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          51,
+          52
+        ]
+      },
+      {
+        "template": "Find the most recently listed item in the \"{{category}}\" category that {{condition}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          54,
+          55
+        ]
+      },
+      {
+        "template": "Tell me the {{detail}} that {{product}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          80,
+          83
+        ]
+      },
+      {
+        "template": "How many {{attribute}} are {{listing detail}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          98,
+          221
+        ]
+      },
+      {
+        "template": "Explore the \"{{category}}\" category, and find the {{item}} in this image.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          101,
+          103
+        ]
+      },
+      {
+        "template": "Search for \"{{phrase}}\" and navigate to the {{product}} that matches the body part in this image.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          115,
+          116
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} which {{condition}} in this image.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          134,
+          170
+        ]
+      },
+      {
+        "template": "Search for \"{{phrase}}\" and find the {{product}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          53
+        ]
+      },
+      {
+        "template": "Explore the \"{{category}}\" category of {{location}} and find me {{item}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          58
+        ]
+      },
+      {
+        "template": "I like {{attribute}}. Can you find the {{detail}} where I can buy similar items, if there's one?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          72
+        ]
+      },
+      {
+        "template": "Search for \"{{phrase}}\" and navigate to the {{product}} that {{condition}} in its image.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          112
+        ]
+      },
+      {
+        "template": "Navigate to the {{item}} from {{location}} {{condition}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          114
+        ]
+      },
+      {
+        "template": "I recall seeing this exact item on the site, tell me the email of the lister of the item. I recall {{hint}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          136
+        ]
+      },
+      {
+        "template": "I recall seeing this exact item for under $20 on the site, tell me the state where this listing is located.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          142
+        ]
+      },
+      {
+        "template": "Navigate to the {{product}} with {{detail}} from the image {{location}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          190
+        ]
+      },
+      {
+        "template": "Help me leave a comment with the title \"Interested\" with the text \"I want to buy this item\", if the item comes with a cable that is able to connect to my USB-C ports, else leave a comment with the same title but with the text \"Do you have a USB-C cable?\".",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          203
+        ]
+      },
+      {
+        "template": "Which palette is more value-for-money in terms of price per distinct color? Help me make a comment on that one with the title \"Would like to buy\" and text \"Do you accept PayPal?\".",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          205
+        ]
+      },
+      {
+        "template": "Identify the insect in the picture. Leave a comment with the title \"Questions\" and text containing the insect's identity, with the purpose of confirming with the seller.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          208
+        ]
+      },
+      {
+        "template": "What is the {{detail}} that {{product}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          209
+        ]
+      },
+      {
+        "template": "Find me the seller's email if the item depicts Elvis Presley's performance without the audience shown, else leave a comment with the title \"Question\" and text \"Do you have one without the audience?\". Also, repeat the seller's email back to him in the comment's text to confirm it.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          213
+        ]
+      },
+      {
+        "template": "Based on the measuring tape in the image, is the stated diameter of this item correct?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          222
+        ]
+      },
+      {
+        "template": "If there is a Santa Claus card or envelope in the listing, help me to comment with the title \"Other cards?\" and with text asking \"Are there any other Santa Claus themed envelopes?\"",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          223
+        ]
+      },
+      {
+        "template": "Out of the three tabs, ignoring color, which two {{item}} look the most alike in terms of design? Comment on those two listings, with the title \"Buying\" and text \"Can I get one?\".",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          229
+        ]
+      },
+      {
+        "template": "Show me the {{attribute}} {{item}} {{condition}} from the classifieds site that looks the most similar to the flower in the image on Reddit. It doesn't have to be the same color.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          231
+        ]
+      },
+      {
+        "template": "Are the characters in the image on Reddit shown in the listing on the classifieds site? If they are, name me the movie that they appear in.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          233
+        ]
+      }
+    ]
+  }
+}

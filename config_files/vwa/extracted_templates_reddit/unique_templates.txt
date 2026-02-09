@@ -1,0 +1,88 @@
+According to the image, {{question}}?
+Can you comment '{{comment}}' on the post with {{item}} posted {{timeframe}}?
+Can you comment '{{comment}}' on the top post (of all time) in {{forum}} that relates to the image?
+Can you comment on the food from the country in the image and about {{description}} saying '{{comment}}'?
+Can you find {{post}} and message the poster '{{message}}'?
+Can you first make a post in {{forum1}} (then afterwards in {{forum2}}) asking for a comparison between the two {{item}} in the shopping tabs? Make sure to include both their SKUs in the title and a picture of the {{condition}}.
+Can you give me the URL for a gif I could send to my friend about the contrast of investing in a retirement account vs a brokerage account from the hot posts of /f/wallstreetbets?
+Can you help me find and navigate to the comments section of an image post that has something like this image?
+Can you help me find and navigate to the comments section of the post with this image?
+Can you make a post in f/food, title it '{{title}}', add the full sized version of the image with {{food}}, and navigate to it?
+Can you make a post in {{forum}} titled '{{title}}', add the full sized version of the image on the shopping page most related to the wikipedia page? Finally, navigate to the comments section of it.
+Can you message the users who posted {{condition}} on this page with '{{message}}'?
+Can you navigate me to the most commented post by the author of this image? {{hint}}
+Can you navigate to the post with {{number}} upvotes, which includes a meme of {{item}}? {{hint}}
+Can you post a comment on the post {{description}} with the text '{{comment}}'?
+Can you repost the image on this page that would fit best in {{subreddit}} with the same title and text as the original post and take me to the comments section of the post?
+Can you search for '{{term}}' and find the post with {{number}} upvotes and includes a meme of {{item}}?
+Can you subscribe me to the most suitable forum where I can find more posts like in the image?
+Can you subscribe to all subreddits that start with the letter '{{letter}}' and have a {{object}} image in their top 3 posts of all time?
+Can you subscribe to the forum {{condition}}?
+Can you take me to the comments section of {{post}} {{condition}}?
+Can you take me to the post on this page that is most related to the picture on this page?
+Can you take me to {{sorting}} in the forum for {{location}}?
+Change my username to the first name of the recipient in the image.
+Consider {{modifier}}. Downvote the posts {{modifier1}} and upvote the posts {{modifier2}}.
+Consider {{modifier}}. What is {{question}}?
+Create a post for each of the following image in the most related forum.
+Downvote the posts {{modifier1}} and upvote the posts {{modifier2}} but {{action}}.
+Find a post in {{forum}} that {{description}}. Then, repost the picture to {{forum2}} with {{characteristic}}. Finally, {{action}}.
+Find an image of {{product}} from OneStopShop, and post it as an image in the {{subreddit}} subreddit with the title as the name of the piece and the artist's name.
+Find and upvote this post. I think it was posted in {{forum}}.
+Find me a post in {{forum}} that illustrates the {{company}} revenue in {{datetime}}, and tell me the revenue of {{department}} (in billions).
+Find me {{description}} of {{object}}. Then, {{action}}.
+Find the user who posted this and navigate to the comments section of one of their other posts.
+Find this post and tell me what the top comment says.
+Gather the title of {{product}} from OneStopShop, and post its full product name in the {{subreddit}} subreddit under the title "{{post_title}}"
+How many comments are {{status}} in the post that {{post_modifier}}
+How many comments did the post with this image receive? I remember it being one of the top 50 hot posts of {{forum}}.
+How much money was user {{user}}'s {{security}} worth {{timeframe}} in their screenshot (in {{currency}})?
+How should I {{task}}? Search {{forum}} for the answer and {{action}}.
+I am a student at the school in the image. Can you make a post asking for the best {{location}} in the forum for the city my school is in and navigate to it?
+I {{interaction}}. Can you help me {{action}}?
+I'd like to find the subreddit for the city this photo was taken in. Can you navigate to it?
+I'm doing some research about the post with this image. Navigate to the comment url of the recipe posted by the OP in the comments.
+I'm doing some research about the post with this image. Navigate to the recipe posted by the OP in the comments.
+I'm trying to do some research about the post with this image. Tell me how many comments mention the word "{{word}}".
+I'm trying to do some research about the post with this image. Tell me how many comments this post has.
+I'm trying to find this post. Navigate to the comment section for it.
+I'm trying to find this post. Navigate to the cxfomment section for it.
+Is there a version of this post with the final results? If so, navigate to the comment section for it.
+Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.
+Leave a comment in this post with the text as the number of {{item}} in the image.
+Leave a comment in this post with the text as the trading loss of the OP in dollars.
+Leave a comment in this post with the text as the trading loss of the OP in euros.
+Make a Reddit post with this image ({{image_url}}) in the most relevant subreddit, and navigate to its comments section.
+Make a comment in this post {{criteria}}.
+Navigate to a subreddit where I can find the most similar content to this image.
+Navigate to the comments section of a post that {{condition}}.
+Navigate to the comments section of the first image post in {{subreddit}} that {{attribute}}.
+Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.
+Navigate to the {{status}} across {{forums}}. {{question}}?
+Navigate to {{object}} that {{description}}.
+Send a direct message to the user that created the post that contains the following picture.
+Subscribe to a forum that contains {{picture}}.
+Subscribe to the forum which is most likely to include discussions related to the image.
+Take me to the post for the joke on this page that is most likely to take place in the following image?
+Upvote all the posts that {{modifier}} on this page.
+What is the birth year of the {{character}}? Answer using the Wikipedia site in the second tab.
+What is the sum of the number of upvotes for the posts on this page that have {{item}}?
+What is the top comment for the most popular post of all time (across all forums) containing {{subject}} in the Wikipedia tab?
+What is the top comment on the post about {{condition}}?
+What {{question}} that {{modifier}}?
+What {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.
+What {{question}} {{modifier}}?
+What {{question}} {{modifier}}? Answer using the information from the Wikipedia site in the second tab.
+What {{question}}? Answer using the information from the Wikipedia site in the second tab.
+When {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.
+Who {{question}} that {{modifier}}?
+Who {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.
+Who {{question}} {{modifier}}?
+Who {{question}}, {{modifier}}? Answer using the information from the Wikipedia site in the second tab.
+Write a story about this picture and post it in the most relevant subreddit.
+{{intro}}. Can you navigate to the comments section of a post {{description}}?
+{{intro}}. Can you tell me {{information}}?{{action}}
+{{question}} the picture {{modifier}} in {{forum}}?
+{{question}}? Leave a comment replying to user "{{user}}" with the following format: {{format}}.
+{{question}}? Leave a comment with the following format: {{format}}.
+{{question}}? {{action}} and create a comment with the following format: {{comment_format}}.

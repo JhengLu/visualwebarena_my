@@ -1,0 +1,75 @@
+Add a comment on the {{item}} with the title "{{title}}" and text "{{comment}}".
+Are the characters in the image on Reddit shown in the listing on the classifieds site? If they are, name me the movie that they appear in.
+Based on the measuring tape in the image, is the stated diameter of this item correct?
+Explore the "{{category}}" category of {{location}} and find me {{item}}.
+Explore the "{{category}}" category, and find the {{item}} in this image.
+Explore the "{{category}}" category, and find the {{item}}.
+Find all listings for this exact item on OSClass and compare its price to the cheapest listing on OneStopMarket. Return the link of {{target}}.
+Find me the most recent {{type}} in the "{{category}}" category of {{item}}.
+Find me the seller's email if the item depicts Elvis Presley's performance without the audience shown, else leave a comment with the title "Question" and text "Do you have one without the audience?". Also, repeat the seller's email back to him in the comment's text to confirm it.
+Find me the {{attribute}} {{item}} from the classifieds site that {{condition}}.{{action}}
+Find me the {{attribute}} {{item}} on this site.
+Find me the {{attribute}} {{item}}. It should be between {{range}}.
+Find me {{product}} that {{condition}} in the image.
+Find the cheapest {{item}} {{condition}}.
+Find the most recently listed item in the "{{category}}" category that {{condition}}.
+Find the three most recent {{item}} in the "{{category}}" category, and tell me {{attribute}}.
+Find the {{item}} from {{location}} {{condition}}.
+Find the {{item}} on this page {{condition}}.
+Find the {{item}} that {{condition}}.
+Find the {{item}} with {{attribute}}. Add a {{rating}} rating with title "{{title}}" and text "{{text}}".
+Find the {{product}} where {{detail}}.
+Find the {{product}} which {{detail}}.
+Find the {{product}} with {{detail}} from the image {{location}}.
+Find the {{product}}, and tell me how much it costs in dollars.
+Find {{item}} and post a comment offering $10 less than their asking price.
+For the {{item}} on this page {{attribute}}, tell me the {{detail}}.
+For the {{item}}, tell me the {{detail}}.
+Help me leave a comment with the title "Interested" with the text "I want to buy this item", if the item comes with a cable that is able to connect to my USB-C ports, else leave a comment with the same title but with the text "Do you have a USB-C cable?".
+Help me make a post selling this item and navigate to it. Price it at $10 cheaper than the most similar item on the site {{range}} (of the same color). If there are multiple similar items, use the most recent posting.
+How many {{attribute}} are {{listing detail}}?
+How many {{item}} {{criteria}}?
+How {{quantity}} does the {{item}} have?
+I like {{attribute}}. Can you find the {{detail}} where I can buy similar items, if there's one?
+I recall seeing this exact item for under $20 on the site, tell me the state where this listing is located.
+I recall seeing this exact item on the site, help me find the most recent post of it.
+I recall seeing this exact item on the site, help me find the most recent post of it. I recall {{hint}}.
+I recall seeing this exact item on the site, tell me the email of the lister of the item. I recall {{hint}}.
+I recall seeing this exact item on the site, tell me the email of the most recent lister of the item. I recall {{hint}}.
+I recall seeing this exact {{item}} on the site, add a comment on its listing with the title "{{title}}" and text "{{comment}}".
+Identify the insect in the picture. Leave a comment with the title "Questions" and text containing the insect's identity, with the purpose of confirming with the seller.
+If there is a Santa Claus card or envelope in the listing, help me to comment with the title "Other cards?" and with text asking "Are there any other Santa Claus themed envelopes?"
+Navigate to my listing {{item}} and {{action}}.
+Navigate to the item on this page whose image {{condition}}.
+Navigate to the {{item}} from {{location}} {{condition}}.
+Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.
+Navigate to the {{item}} on this page {{condition}}.
+Navigate to the {{product}} from {{location}} that {{condition}}.
+Navigate to the {{product}} on this page {{condition}}.
+Navigate to the {{product}} that costs {{range}}.
+Navigate to the {{product}} where {{detail}}.
+Navigate to the {{product}} which {{condition}} in this image.
+Navigate to the {{product}} with {{detail}} from the image {{location}}.
+Navigate to the {{product}} with {{detail}} from the image.
+Navigate to the {{product}}.
+Out of the three tabs, ignoring color, which two {{item}} look the most alike in terms of design? Comment on those two listings, with the title "Buying" and text "Can I get one?".
+Return the links of the {{attribute}} {{items}}.
+Search for "{{phrase}}" and find the {{product}}.
+Search for "{{phrase}}" and navigate to the {{product}} that matches the body part in this image.
+Search for "{{phrase}}" and navigate to the {{product}} that {{condition}} in its image.
+Search for "{{phrase}}" and navigate to the {{product}}.
+Search for "{{phrase}}" and tell me {{detail}}.
+Search for "{{phrase}}"{{detail}} and return the links of {{target}}.
+Show me the {{attribute}} {{item}} from the classifieds site {{description}} on OneStopMarket.
+Show me the {{attribute}} {{item}} {{condition}} from the classifieds site that looks the most similar to the flower in the image on Reddit. It doesn't have to be the same color.
+Show me the {{attribute}} {{item}} {{condition}}.
+Show me the {{item}}.
+Tell me the {{detail}} that {{product}}?
+Tell me the {{product}}.
+What is the email of the seller of {{item}} on this page?
+What is the email of the seller of {{item}}?
+What is the price range of {{items}}?
+What is the {{attribute}} of {{item}}?
+What is the {{detail}} that {{product}}?
+What is {{attribute}} on the {{product}}?
+Which palette is more value-for-money in terms of price per distinct color? Help me make a comment on that one with the title "Would like to buy" and text "Do you accept PayPal?".

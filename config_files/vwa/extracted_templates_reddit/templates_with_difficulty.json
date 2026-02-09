@@ -1,0 +1,2894 @@
+{
+  "metadata": {
+    "source_file": "/mnt/2_1/visualwebarena_my/config_files/vwa/test_reddit.raw.json",
+    "total_templates": 88,
+    "total_tasks": 210,
+    "classification_method": "ground-truth (from sites field)",
+    "includes_difficulty": true,
+    "sites": [
+      "reddit",
+      "shopping",
+      "wikipedia"
+    ]
+  },
+  "site_statistics": {
+    "reddit": {
+      "unique_templates": 77,
+      "total_tasks": 182,
+      "percentage_of_templates": 87.5,
+      "percentage_of_tasks": 86.7,
+      "reasoning_difficulty_distribution": {
+        "easy": 58,
+        "medium": 58,
+        "hard": 66
+      },
+      "visual_difficulty_distribution": {
+        "medium": 62,
+        "easy": 92,
+        "hard": 28
+      },
+      "overall_difficulty_distribution": {
+        "easy": 54,
+        "medium": 69,
+        "hard": 59
+      }
+    },
+    "wikipedia": {
+      "unique_templates": 9,
+      "total_tasks": 26,
+      "percentage_of_templates": 10.2,
+      "percentage_of_tasks": 12.4,
+      "reasoning_difficulty_distribution": {
+        "hard": 5,
+        "medium": 21
+      },
+      "visual_difficulty_distribution": {
+        "hard": 13,
+        "medium": 12,
+        "easy": 1
+      },
+      "overall_difficulty_distribution": {
+        "hard": 15,
+        "medium": 10,
+        "easy": 1
+      }
+    },
+    "shopping": {
+      "unique_templates": 2,
+      "total_tasks": 2,
+      "percentage_of_templates": 2.3,
+      "percentage_of_tasks": 1.0,
+      "reasoning_difficulty_distribution": {
+        "hard": 2
+      },
+      "visual_difficulty_distribution": {
+        "easy": 2
+      },
+      "overall_difficulty_distribution": {
+        "hard": 2
+      }
+    }
+  },
+  "templates_by_site": {
+    "reddit": [
+      {
+        "template": "{{question}} the picture {{modifier}} in {{forum}}?",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 6
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "easy": 6
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "easy": 6
+            },
+            "most_common": "easy",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      },
+      {
+        "template": "Leave a comment in this post with the text as the number of {{item}} in the image.",
+        "count": 6,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 6
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "visual": {
+            "distribution": {
+              "easy": 6
+            },
+            "most_common": "easy",
+            "total": 6
+          },
+          "overall": {
+            "distribution": {
+              "easy": 6
+            },
+            "most_common": "easy",
+            "total": 6
+          }
+        },
+        "task_ids": [
+          147,
+          148,
+          149,
+          150,
+          151,
+          152
+        ]
+      },
+      {
+        "template": "Find this post and tell me what the top comment says.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "hard": 5
+            },
+            "most_common": "hard",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "template": "Upvote all the posts that {{modifier}} on this page.",
+        "count": 5,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 4,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 5
+          },
+          "visual": {
+            "distribution": {
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 5
+          },
+          "overall": {
+            "distribution": {
+              "medium": 5
+            },
+            "most_common": "medium",
+            "total": 5
+          }
+        },
+        "task_ids": [
+          80,
+          81,
+          82,
+          83,
+          88
+        ]
+      },
+      {
+        "template": "I'm doing some research about the post with this image. Navigate to the comment url of the recipe posted by the OP in the comments.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "template": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 4
+            },
+            "most_common": "hard",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "medium": 3,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "hard": 4
+            },
+            "most_common": "hard",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "template": "Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 4
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "medium": 4
+            },
+            "most_common": "medium",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "medium": 4
+            },
+            "most_common": "medium",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "template": "Navigate to the comments section of a post that {{condition}}.",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "easy": 4
+            },
+            "most_common": "easy",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      {
+        "template": "Can you take me to the comments section of {{post}} {{condition}}?",
+        "count": 4,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 4
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "easy": 2
+            },
+            "most_common": "medium",
+            "total": 4
+          }
+        },
+        "task_ids": [
+          157,
+          196,
+          197,
+          204
+        ]
+      },
+      {
+        "template": "Can you help me find and navigate to the comments section of the post with this image?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "template": "Find and upvote this post. I think it was posted in {{forum}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "template": "I'd like to find the subreddit for the city this photo was taken in. Can you navigate to it?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "easy": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          38,
+          39,
+          40
+        ]
+      },
+      {
+        "template": "Navigate to {{object}} that {{description}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1,
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          77,
+          78,
+          79
+        ]
+      },
+      {
+        "template": "{{question}}? Leave a comment with the following format: {{format}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          89,
+          90,
+          91
+        ]
+      },
+      {
+        "template": "{{question}}? Leave a comment replying to user \"{{user}}\" with the following format: {{format}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          102,
+          103,
+          104
+        ]
+      },
+      {
+        "template": "Subscribe to a forum that contains {{picture}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          105,
+          106,
+          107
+        ]
+      },
+      {
+        "template": "Send a direct message to the user that created the post that contains the following picture.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          108,
+          109,
+          110
+        ]
+      },
+      {
+        "template": "Create a post for each of the following image in the most related forum.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          111,
+          112,
+          113
+        ]
+      },
+      {
+        "template": "Navigate to the {{status}} across {{forums}}. {{question}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          114,
+          115,
+          116
+        ]
+      },
+      {
+        "template": "Find me a post in {{forum}} that illustrates the {{company}} revenue in {{datetime}}, and tell me the revenue of {{department}} (in billions).",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          123,
+          124,
+          125
+        ]
+      },
+      {
+        "template": "Can you navigate me to the most commented post by the author of this image? {{hint}}",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "template": "Subscribe to the forum which is most likely to include discussions related to the image.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          129,
+          130,
+          131
+        ]
+      },
+      {
+        "template": "How many comments did the post with this image receive? I remember it being one of the top 50 hot posts of {{forum}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          132,
+          133,
+          134
+        ]
+      },
+      {
+        "template": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          141,
+          142,
+          143
+        ]
+      },
+      {
+        "template": "Can you subscribe to all subreddits that start with the letter '{{letter}}' and have a {{object}} image in their top 3 posts of all time?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          158,
+          159,
+          160
+        ]
+      },
+      {
+        "template": "Can you subscribe to the forum {{condition}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          170,
+          171,
+          178
+        ]
+      },
+      {
+        "template": "Can you post a comment on the post {{description}} with the text '{{comment}}'?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "hard": 2,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          172,
+          173,
+          174
+        ]
+      },
+      {
+        "template": "Can you make a post in {{forum}} titled '{{title}}', add the full sized version of the image on the shopping page most related to the wikipedia page? Finally, navigate to the comments section of it.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          185,
+          186,
+          187
+        ]
+      },
+      {
+        "template": "Can you subscribe me to the most suitable forum where I can find more posts like in the image?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "easy": 3
+            },
+            "most_common": "easy",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          188,
+          189,
+          190
+        ]
+      },
+      {
+        "template": "Can you comment '{{comment}}' on the post with {{item}} posted {{timeframe}}?",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          193,
+          194,
+          195
+        ]
+      },
+      {
+        "template": "Can you first make a post in {{forum1}} (then afterwards in {{forum2}}) asking for a comparison between the two {{item}} in the shopping tabs? Make sure to include both their SKUs in the title and a picture of the {{condition}}.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1,
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "hard": 3
+            },
+            "most_common": "hard",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          207,
+          208,
+          209
+        ]
+      },
+      {
+        "template": "I'm trying to find this post. Navigate to the comment section for it.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "template": "I'm trying to do some research about the post with this image. Tell me how many comments mention the word \"{{word}}\".",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          3,
+          4
+        ]
+      },
+      {
+        "template": "I'm trying to do some research about the post with this image. Tell me how many comments this post has.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          5,
+          6
+        ]
+      },
+      {
+        "template": "Can you help me find and navigate to the comments section of an image post that has something like this image?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          14,
+          15
+        ]
+      },
+      {
+        "template": "Navigate to a subreddit where I can find the most similar content to this image.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          17,
+          18
+        ]
+      },
+      {
+        "template": "Write a story about this picture and post it in the most relevant subreddit.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          28,
+          29
+        ]
+      },
+      {
+        "template": "Navigate to the comments section of the first image post in {{subreddit}} that {{attribute}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          41,
+          42
+        ]
+      },
+      {
+        "template": "Make a comment in this post {{criteria}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          69,
+          72
+        ]
+      },
+      {
+        "template": "Find me {{description}} of {{object}}. Then, {{action}}.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          71,
+          74
+        ]
+      },
+      {
+        "template": "Consider {{modifier}}. What is {{question}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1,
+              "medium": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          86,
+          87
+        ]
+      },
+      {
+        "template": "I'm doing some research about the post with this image. Navigate to the recipe posted by the OP in the comments.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          121,
+          122
+        ]
+      },
+      {
+        "template": "Can you navigate to the post with {{number}} upvotes, which includes a meme of {{item}}? {{hint}}",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          136,
+          137
+        ]
+      },
+      {
+        "template": "I {{interaction}}. Can you help me {{action}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          139,
+          140
+        ]
+      },
+      {
+        "template": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          144,
+          146
+        ]
+      },
+      {
+        "template": "{{intro}}. Can you tell me {{information}}?{{action}}",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1,
+              "hard": 1
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          154,
+          156
+        ]
+      },
+      {
+        "template": "{{intro}}. Can you navigate to the comments section of a post {{description}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          155,
+          167
+        ]
+      },
+      {
+        "template": "What is the top comment for the most popular post of all time (across all forums) containing {{subject}} in the Wikipedia tab?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          163,
+          164
+        ]
+      },
+      {
+        "template": "Can you find {{post}} and message the poster '{{message}}'?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          165,
+          166
+        ]
+      },
+      {
+        "template": "Can you repost the image on this page that would fit best in {{subreddit}} with the same title and text as the original post and take me to the comments section of the post?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          168,
+          169
+        ]
+      },
+      {
+        "template": "Can you comment on the food from the country in the image and about {{description}} saying '{{comment}}'?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          176,
+          177
+        ]
+      },
+      {
+        "template": "Can you take me to {{sorting}} in the forum for {{location}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          179,
+          180
+        ]
+      },
+      {
+        "template": "I am a student at the school in the image. Can you make a post asking for the best {{location}} in the forum for the city my school is in and navigate to it?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          181,
+          182
+        ]
+      },
+      {
+        "template": "Can you make a post in f/food, title it '{{title}}', add the full sized version of the image with {{food}}, and navigate to it?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "easy": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          183,
+          184
+        ]
+      },
+      {
+        "template": "What is the sum of the number of upvotes for the posts on this page that have {{item}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          191,
+          192
+        ]
+      },
+      {
+        "template": "Can you comment '{{comment}}' on the top post (of all time) in {{forum}} that relates to the image?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1,
+              "hard": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          198,
+          199
+        ]
+      },
+      {
+        "template": "Can you take me to the post on this page that is most related to the picture on this page?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          200,
+          201
+        ]
+      },
+      {
+        "template": "Can you message the users who posted {{condition}} on this page with '{{message}}'?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          202,
+          203
+        ]
+      },
+      {
+        "template": "What is the top comment on the post about {{condition}}?",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "easy": 2
+            },
+            "most_common": "easy",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          205,
+          206
+        ]
+      },
+      {
+        "template": "I'm trying to find this post. Navigate to the cxfomment section for it.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          0
+        ]
+      },
+      {
+        "template": "What {{question}} {{modifier}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          16
+        ]
+      },
+      {
+        "template": "Make a Reddit post with this image ({{image_url}}) in the most relevant subreddit, and navigate to its comments section.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          27
+        ]
+      },
+      {
+        "template": "What {{question}} that {{modifier}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          64
+        ]
+      },
+      {
+        "template": "How many comments are {{status}} in the post that {{post_modifier}}",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          70
+        ]
+      },
+      {
+        "template": "Find a post in {{forum}} that {{description}}. Then, repost the picture to {{forum2}} with {{characteristic}}. Finally, {{action}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          73
+        ]
+      },
+      {
+        "template": "How should I {{task}}? Search {{forum}} for the answer and {{action}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          75
+        ]
+      },
+      {
+        "template": "{{question}}? {{action}} and create a comment with the following format: {{comment_format}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          76
+        ]
+      },
+      {
+        "template": "Downvote the posts {{modifier1}} and upvote the posts {{modifier2}} but {{action}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          84
+        ]
+      },
+      {
+        "template": "Consider {{modifier}}. Downvote the posts {{modifier1}} and upvote the posts {{modifier2}}.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          85
+        ]
+      },
+      {
+        "template": "According to the image, {{question}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          120
+        ]
+      },
+      {
+        "template": "Can you search for '{{term}}' and find the post with {{number}} upvotes and includes a meme of {{item}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          135
+        ]
+      },
+      {
+        "template": "Change my username to the first name of the recipient in the image.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          138
+        ]
+      },
+      {
+        "template": "Leave a comment in this post with the text as the trading loss of the OP in euros.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          145
+        ]
+      },
+      {
+        "template": "Is there a version of this post with the final results? If so, navigate to the comment section for it.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          153
+        ]
+      },
+      {
+        "template": "Take me to the post for the joke on this page that is most likely to take place in the following image?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          161
+        ]
+      },
+      {
+        "template": "Can you give me the URL for a gif I could send to my friend about the contrast of investing in a retirement account vs a brokerage account from the hot posts of /f/wallstreetbets?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          162
+        ]
+      },
+      {
+        "template": "How much money was user {{user}}'s {{security}} worth {{timeframe}} in their screenshot (in {{currency}})?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          175
+        ]
+      }
+    ],
+    "shopping": [
+      {
+        "template": "Gather the title of {{product}} from OneStopShop, and post its full product name in the {{subreddit}} subreddit under the title \"{{post_title}}\"",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          43
+        ]
+      },
+      {
+        "template": "Find an image of {{product}} from OneStopShop, and post it as an image in the {{subreddit}} subreddit with the title as the name of the piece and the artist's name.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "easy": 1
+            },
+            "most_common": "easy",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          44
+        ]
+      }
+    ],
+    "wikipedia": [
+      {
+        "template": "What {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+        "count": 14,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 4,
+              "medium": 10
+            },
+            "most_common": "medium",
+            "total": 14
+          },
+          "visual": {
+            "distribution": {
+              "hard": 8,
+              "medium": 6
+            },
+            "most_common": "hard",
+            "total": 14
+          },
+          "overall": {
+            "distribution": {
+              "hard": 9,
+              "medium": 5
+            },
+            "most_common": "hard",
+            "total": 14
+          }
+        },
+        "task_ids": [
+          45,
+          46,
+          47,
+          49,
+          50,
+          51,
+          52,
+          56,
+          57,
+          59,
+          60,
+          63,
+          65,
+          66
+        ]
+      },
+      {
+        "template": "What is the birth year of the {{character}}? Answer using the Wikipedia site in the second tab.",
+        "count": 3,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 3
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "visual": {
+            "distribution": {
+              "medium": 2,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          },
+          "overall": {
+            "distribution": {
+              "medium": 2,
+              "easy": 1
+            },
+            "most_common": "medium",
+            "total": 3
+          }
+        },
+        "task_ids": [
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "template": "Who {{question}}, {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1,
+              "medium": 1
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          55,
+          68
+        ]
+      },
+      {
+        "template": "Who {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+        "count": 2,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 2
+            },
+            "most_common": "medium",
+            "total": 2
+          },
+          "visual": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          },
+          "overall": {
+            "distribution": {
+              "hard": 2
+            },
+            "most_common": "hard",
+            "total": 2
+          }
+        },
+        "task_ids": [
+          61,
+          62
+        ]
+      },
+      {
+        "template": "What {{question}}? Answer using the information from the Wikipedia site in the second tab.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          48
+        ]
+      },
+      {
+        "template": "What {{question}} {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          53
+        ]
+      },
+      {
+        "template": "When {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "hard": 1
+            },
+            "most_common": "hard",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          54
+        ]
+      },
+      {
+        "template": "Who {{question}} {{modifier}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          58
+        ]
+      },
+      {
+        "template": "Who {{question}} that {{modifier}}?",
+        "count": 1,
+        "difficulty": {
+          "reasoning": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "visual": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          },
+          "overall": {
+            "distribution": {
+              "medium": 1
+            },
+            "most_common": "medium",
+            "total": 1
+          }
+        },
+        "task_ids": [
+          67
+        ]
+      }
+    ]
+  }
+}

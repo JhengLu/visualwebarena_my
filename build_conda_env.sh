@@ -39,12 +39,12 @@ else
     fi
 
     source ~/.bashrc 2>/dev/null || true
-
-    # 5) Accept conda terms of service (runpod requirement)
-    echo "Accepting conda terms of service..."
-    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main 2>/dev/null || echo "TOS already accepted or not required"
-    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r 2>/dev/null || echo "TOS already accepted or not required"
 fi
+
+# Accept conda terms of service (required before creating environments)
+echo "Accepting conda terms of service..."
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main 2>/dev/null || echo "TOS already accepted or not required"
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r 2>/dev/null || echo "TOS already accepted or not required"
 
 # Initialize conda for shell if not already initialized (regardless of installation path)
 if ! grep -q "conda initialize" ~/.bashrc 2>/dev/null; then

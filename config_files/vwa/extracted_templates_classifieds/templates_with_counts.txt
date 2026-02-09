@@ -1,0 +1,79 @@
+Total unique templates: 75
+Total entries: 234
+================================================================================
+
+  7x  Find the {{product}} where {{detail}}.
+  7x  Explore the "{{category}}" category, and find the {{item}}.
+  7x  Show me the {{attribute}} {{item}} {{condition}}.
+  6x  Navigate to my listing {{item}} and {{action}}.
+  6x  Find the cheapest {{item}} {{condition}}.
+  6x  Find the {{product}}, and tell me how much it costs in dollars.
+  6x  Tell me the {{product}}.
+  6x  Navigate to the item on this page whose image {{condition}}.
+  6x  Show me the {{attribute}} {{item}} from the classifieds site {{description}} on OneStopMarket.
+  5x  What is the {{attribute}} of {{item}}?
+  5x  Show me the {{item}}.
+  5x  How {{quantity}} does the {{item}} have?
+  5x  Add a comment on the {{item}} with the title "{{title}}" and text "{{comment}}".
+  5x  Find the {{item}} from {{location}} {{condition}}.
+  5x  Find me {{product}} that {{condition}} in the image.
+  5x  Navigate to the {{product}} on this page {{condition}}.
+  5x  For the {{item}}, tell me the {{detail}}.
+  5x  Navigate to the {{product}} from {{location}} that {{condition}}.
+  5x  Find me the {{attribute}} {{item}} from the classifieds site that {{condition}}.{{action}}
+  4x  Search for "{{phrase}}" and tell me {{detail}}.
+  4x  I recall seeing this exact item on the site, help me find the most recent post of it. I recall {{hint}}.
+  4x  Find the {{item}} that {{condition}}.
+  4x  Find the {{product}} with {{detail}} from the image {{location}}.
+  4x  Find the {{item}} with {{attribute}}. Add a {{rating}} rating with title "{{title}}" and text "{{text}}".
+  4x  For the {{item}} on this page {{attribute}}, tell me the {{detail}}.
+  4x  Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.
+  4x  Navigate to the {{product}} where {{detail}}.
+  3x  Find me the {{attribute}} {{item}} on this site.
+  3x  Find me the {{attribute}} {{item}}. It should be between {{range}}.
+  3x  What is the email of the seller of {{item}}?
+  3x  How many {{item}} {{criteria}}?
+  3x  Find {{item}} and post a comment offering $10 less than their asking price.
+  3x  What is the price range of {{items}}?
+  3x  I recall seeing this exact item on the site, help me find the most recent post of it.
+  3x  Find the {{product}} which {{detail}}.
+  3x  Find the {{item}} on this page {{condition}}.
+  3x  What is {{attribute}} on the {{product}}?
+  3x  Search for "{{phrase}}" and navigate to the {{product}}.
+  3x  Navigate to the {{item}} on this page {{condition}}.
+  3x  I recall seeing this exact item on the site, tell me the email of the most recent lister of the item. I recall {{hint}}.
+  3x  I recall seeing this exact {{item}} on the site, add a comment on its listing with the title "{{title}}" and text "{{comment}}".
+  3x  Navigate to the {{product}} that costs {{range}}.
+  3x  Navigate to the {{product}}.
+  3x  Navigate to the {{product}} with {{detail}} from the image.
+  2x  Return the links of the {{attribute}} {{items}}.
+  2x  Help me make a post selling this item and navigate to it. Price it at $10 cheaper than the most similar item on the site {{range}} (of the same color). If there are multiple similar items, use the most recent posting.
+  2x  What is the email of the seller of {{item}} on this page?
+  2x  Search for "{{phrase}}"{{detail}} and return the links of {{target}}.
+  2x  Find all listings for this exact item on OSClass and compare its price to the cheapest listing on OneStopMarket. Return the link of {{target}}.
+  2x  Find the three most recent {{item}} in the "{{category}}" category, and tell me {{attribute}}.
+  2x  Find me the most recent {{type}} in the "{{category}}" category of {{item}}.
+  2x  Find the most recently listed item in the "{{category}}" category that {{condition}}.
+  2x  Tell me the {{detail}} that {{product}}?
+  2x  How many {{attribute}} are {{listing detail}}?
+  2x  Explore the "{{category}}" category, and find the {{item}} in this image.
+  2x  Search for "{{phrase}}" and navigate to the {{product}} that matches the body part in this image.
+  2x  Navigate to the {{product}} which {{condition}} in this image.
+  1x  Search for "{{phrase}}" and find the {{product}}.
+  1x  Explore the "{{category}}" category of {{location}} and find me {{item}}.
+  1x  I like {{attribute}}. Can you find the {{detail}} where I can buy similar items, if there's one?
+  1x  Search for "{{phrase}}" and navigate to the {{product}} that {{condition}} in its image.
+  1x  Navigate to the {{item}} from {{location}} {{condition}}.
+  1x  I recall seeing this exact item on the site, tell me the email of the lister of the item. I recall {{hint}}.
+  1x  I recall seeing this exact item for under $20 on the site, tell me the state where this listing is located.
+  1x  Navigate to the {{product}} with {{detail}} from the image {{location}}.
+  1x  Help me leave a comment with the title "Interested" with the text "I want to buy this item", if the item comes with a cable that is able to connect to my USB-C ports, else leave a comment with the same title but with the text "Do you have a USB-C cable?".
+  1x  Which palette is more value-for-money in terms of price per distinct color? Help me make a comment on that one with the title "Would like to buy" and text "Do you accept PayPal?".
+  1x  Identify the insect in the picture. Leave a comment with the title "Questions" and text containing the insect's identity, with the purpose of confirming with the seller.
+  1x  What is the {{detail}} that {{product}}?
+  1x  Find me the seller's email if the item depicts Elvis Presley's performance without the audience shown, else leave a comment with the title "Question" and text "Do you have one without the audience?". Also, repeat the seller's email back to him in the comment's text to confirm it.
+  1x  Based on the measuring tape in the image, is the stated diameter of this item correct?
+  1x  If there is a Santa Claus card or envelope in the listing, help me to comment with the title "Other cards?" and with text asking "Are there any other Santa Claus themed envelopes?"
+  1x  Out of the three tabs, ignoring color, which two {{item}} look the most alike in terms of design? Comment on those two listings, with the title "Buying" and text "Can I get one?".
+  1x  Show me the {{attribute}} {{item}} {{condition}} from the classifieds site that looks the most similar to the flower in the image on Reddit. It doesn't have to be the same color.
+  1x  Are the characters in the image on Reddit shown in the listing on the classifieds site? If they are, name me the movie that they appear in.

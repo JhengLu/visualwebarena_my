@@ -1,0 +1,156 @@
+Total unique templates: 152
+Total entries: 466
+================================================================================
+
+ 12x  Buy the {{product}} on the page {{detail}}.
+  9x  I'm interested in the {{item}}. Can you return an image link showing {{image_desc}}?
+  8x  What is the price range for products in the {{region}}?
+  8x  Add the {{product}} in the {{location}} to my wish list.
+  7x  Tell me the price of the {{product}} in the {{location}}.
+  7x  Buy {{item}} {{condition}}.
+  7x  Buy the {{product}} with {{detail}}.
+  6x  Add the {{product}} to my wish list.
+  6x  List out reviewers, if exist, who mention {{description}} for the {{product}}
+  6x  Add this exact product to my shopping cart. I think it is in the "{{category}}" category.
+  6x  Tell me how much this exact item costs on OneStopMarket.
+  6x  Can you take me to the page that has this {{subject}} {{item}}?
+  6x  Buy {{product}} with {{detail}} on the packaging.
+  6x  Can you buy the {{item}} in the "{{product_category}}" category?
+  5x  Tell me the price of the {{product}}.
+  5x  Add something like the {{item}} to my shopping cart.
+  5x  Can you add {{items}} to the comparison page?
+  5x  Add this exact product to my wish list. I think it might be in the "{{category}}" category but I'm not certain.
+  5x  Can you return the link of an image {{description}}?
+  5x  Find me {{category}} that is of the same brand as the product in this picture and buy {{quantity}} for me. It needs to {{description}}.
+  5x  Can you add the product that looks most like {{emojis}} to my cart?
+  5x  Add to my cart {{item}} {{condition}}.
+  4x  Show me the {{order}} in the "{{product}}" search results by {{sorting_order}}.
+  4x  What is the color of the {{type}} item in the "{{product_category}}" category?
+  4x  Show me the first {{design}} in the search results for "{{product}}".
+  4x  Add the {{product}} {{condition}} to my wish list.
+  4x  Add the product that {{attribute}} from my open tabs to the shopping cart
+  4x  Add something like {{item}}, but {{attribute}}, from this page to my wish list.
+  4x  {{description}}, can you add one to my wishlist?
+  4x  Add something like {{attribute}} to my wish list.
+  4x  How much is the {{item}} with {{secondary_item}} in the picture on this page?
+  4x  Can you return an image url from an item on this page showing {{action}} {{item}}?
+  4x  Can you add the {{item}} with {{number}} stars to my cart?
+  4x  Can you add all the {{items}} {{condition}} to my shopping cart?
+  4x  Can you add {{item}} to my cart and take me to the final checkout screen before placing the order?
+  4x  Find me {{item}} that {{attribute}} the picture.
+  4x  How many calories are in {{item}}?
+  4x  Purchase the exact item shown in the image.
+  4x  Buy the {{product}} with {{detail}} on the packaging (in any size).
+  4x  Buy me a {{product}} that {{relation}} in the image{{detail}}.
+  4x  Buy me a {{product}} with {{detail}}.
+  4x  I am a fan of {{organization}}. Can you find a url of an image of an item in the "{{product_category}}" category I can buy to support them?
+  4x  Rate {{product}} in the {{category}} category with {{num_star}} stars, using my nickname {{nickname}}?
+  3x  Buy the least expensive {{product}} from "{{category}}" category.
+  3x  I am doing a market survey for one stop market, show me the most expensive {{product}} from "{{product_category}}" category
+  3x  {{modifier}}List the full product names of {{color}} {{product}} and tell me the price range of the available products
+  3x  What is the price of the most expensive {{color}} product in the "{{product_category}}" category?
+  3x  Search for "{{keyword}}" and show me the {{item_order}} item {{condition}}
+  3x  What is the {{attribute}} and price of the cheapest item in the "{{category}}" category?
+  3x  Find me the cheapest item in the "{{category}}" category that comes in {{shape}}.
+  3x  Add the {{attribute}} one in the {{order}} to my shopping cart.
+  3x  Add this to my cart if {{condition}}
+  3x  I need something like this for my apartment. Can you add one to my wishlist?
+  3x  {{description}}, can you add the most similar one on this page to my wishlist?
+  3x  I remembered that I ordered something like this, can you show me the corresponding order page?
+  3x  Find me {{category}} of the same brand as the product in this picture. It needs to {{description}}.
+  3x  Find me {{category}} that is of the same brand as products in one of the following pictures. It needs to {{description}}.
+  3x  I really like {{stuff}}. Can you find me {{product}} and add it to my shopping cart?
+  3x  Can you add the item {{offset}} the {{item}} to my cart?
+  3x  How much does the {{item}} weigh (in {{units}})?
+  3x  What colors do the {{item}} come in?
+  3x  What is the name of the monster on that {{color}} box in the bottom row?
+  3x  Can you add {{item}} {{condition}} to my wishlist?
+  3x  {{information}}. Can you add {{items}} to my cart?
+  3x  Can you add the {{item}} that look like they are from {{reference}} to my wishlist?
+  3x  Between {{item1}} and {{item2}}, add the cheaper one to my cart and the other to my wishlist.
+  3x  I have {{subjects}}, can you order enough {{product}} so each can get their own?
+  3x  Can you order {{product}} and let me know the final price?
+  3x  Can you order the {{item}} {{condition}}?
+  3x  Can you leave a {{number}} star review on {{product}} saying "{{review}}"?
+  3x  {{modifier}} {{item}} to my cart and order it only if the total comes out to less than {{amount}}?
+  3x  Can you order the shoes on this page that I would most likely wear if I was in the image{{size}}?
+  3x  What is the {{size_attribute}} of the {{product}} with {{attribute}} in {{unit}}?
+  3x  Add {{quantity}} of {{item}} from this page to my shopping cart.
+  3x  What is the {{attribute}} of {{item}} that has the most similar pattern as {{property}} in the picture in this page?
+  3x  What size of {{item}} should I buy if {{condition}}?
+  3x  Show me the product page of the {{item}}.
+  3x  Please show me the product page for the item in the {{row}} row, {{column}} column.
+  3x  Please add to my shopping cart all the items from this page that can connect these devices from the two images.
+  3x  Purchase the cheapest {{item}}, in {{color}}.
+  3x  Buy me {{item}} to {{address}}.
+  3x  Change my default shipping address to the place shown in the image.
+  3x  Prepend the country code of {{country}} to the phone number of my account profile.
+  3x  Help me to add the cheapest {{color}} {{item}} to my wishlist
+  3x  Please add the cheapest {{description}} {{item}} to my shopping cart
+  3x  Help me find all items between {{lower}} and {{upper}} that look like the image below and put them in my cart.
+  3x  Find me the cheapest {{property}} version of the thing in this image and add it to my cart please.
+  3x  Place the item with {{quality}} on this page into my cart
+  3x  Add all the items with {{quality}} on this page into my cart
+  3x  Find me the cheapest {{item}} {{condition}} and add one of any size to my shopping cart.
+  3x  Add this (in any size) to my cart if {{condition}}
+  2x  Explore the "{{category}}" category listed by ascending price and add the first {{design}} item to my shopping cart.
+  2x  Explore the "{{category}}" category listed by ascending price and tell me the color of the {{order}} item in the first row.
+  2x  Add all the items I need to make this to my shopping cart.
+  2x  I like {{attribute}}. Can you add something like that {{condition}} to my wishlist, if there's one?
+  2x  Return an image link of an image showing how this item looks like {{attribute}}.
+  2x  Return an image link of {{item}}.
+  2x  Return an image link from one of the products here showing {{item}}.
+  2x  I'd like to share the {{item}} with my friend, can you return an image link {{description}}?
+  2x  Find me {{category}} of the same brand as the product in this picture.
+  2x  Find me {{category}} that {{relation1}} first picture and has {{relation2}} second picture. It needs to have {{relation3}} third picture.
+  2x  Can you find me {{category}} that combines the {{attributes}} of the items in the following images?
+  2x  Find me {{category}} that is of the same brand as products in one of the following pictures and buy {{quantity}} for me. It needs to {{description}}.
+  2x  Buy me something like {{item}}, but {{attribute}}, from this page.
+  2x  I really like {{stuff}}. Can you find me {{product}} and buy {{quantity}} for me?
+  2x  Add the least expensive {{item}} that can hold {{storable}} to my shopping cart.
+  2x  I've been thinking about ordering {{item}}, but {{condition}}. Can you add it to my shopping cart if it exists?
+  2x  How many {{attribute}} does the box with the {{object}} have?
+  2x  Can you add the most expensive {{category}} to my cart that is less than ${{dollars}} and {{color}}?
+  2x  Can you set the {{side}} side address to {{address}}? My phone number is also {{number}}.
+  2x  From {{location}}, can you add the two items with the best ratings to my cart, and the others to my wishlist?
+  2x  Can you return an image link of the {{item}} in another angle?
+  2x  This would make a great birthday gift for my friend! Can you order another one on this site {{modification}} to {{address}}? My phone number is also {{number}} in case it is needed.
+  2x  Order {{product}}. If the shipping is more than 7% of the total price, leave a 3 star review mentioning it, otherwise 5.
+  2x  Can you order the item on this page that is cheaper between {{item1}} and {{item2}} and just leave the other one in my cart? My size is {{size}}.
+  2x  Can you order the cheapest thing {{item}}?
+  2x  Find me {{item}}.
+  2x  Buy {{item}} while minimizing costs.
+  2x  Empty my cart first and add all the items (in any color) from this page to my shopping cart which {{condition}}.
+  2x  I am a fan of {{organization}}. Can you find an image address of a {{product}} with their logo that I can wear to support them?
+  2x  Given the image, buy the {{product}} which contain the same object in the image on its design.
+  2x  Buy me a {{product}} that has a skyline of the city shown in this image.
+  2x  Buy me a {{product}} that references a sports team from this city.
+  2x  Buy me a {{product}} that references the city in the image.
+  2x  Find me the cheapest item that costs {{range}} and can {{function}} like in the image shown and add it to my cart.
+  2x  Navigate to the category where I can find {{item}} that can help me {{function}}. Add the cheapest one to my cart.
+  2x  Put the least expensive item that has the thing in the first image {{relationship}} the thing in the second image in my wishlist
+  2x  Find {{item}} {{condition}}. Add it to my shopping cart.
+  1x  Explore the "{{category}}" category listed by ascending price and tell me the colors of the {{order}} item in the first row.
+  1x  I really like the {{item}}, but I'm not a fan of the color. Can you see if there's one in {{attribute}} on this page, and if so, add the cheapest one to my wishlist?
+  1x  I need something to store {{item}}. Add one to my shopping cart.
+  1x  The panda toothbrush box is cute, can you return an image link showing the design with other animals if possible?
+  1x  Can you find me {{category}} that combines the {{attribute}} of the items in the following images?
+  1x  Can you find me {{category}} that combines the {{attributes}} of the items in the following images and buy it for me?
+  1x  Can you find me {{category}} that is the combination of the following images and buy it for me?
+  1x  What is the width and length of this product in inches? (Not the package size)
+  1x  What {{query}} {{question}}?
+  1x  Can you return an image link showing the {{item}} in another angle?
+  1x  That {{item}} in the Wikipedia page looks delicious! Can you order {{descriptors}} for me in OneStopShop?
+  1x  I want to eat this food, but I am {{restriction}}. Can you order the closest thing to this from the "{{category}}" category that fits my dietary requirements?
+  1x  Please add the item in the {{row}} row, {{column}} column to the shopping cart.
+  1x  I want to buy this specific item, but only if it's brand new. Can you add one from this page to my cart?
+  1x  I really like these {{product}}, but I am not satisfied with the color. Could you find me an item on this page for these {{product}} with a {{shadeChoice}} shade or color?
+  1x  Find me {{category}} that are of the same brand as the product in this picture. It needs to {{description}}.
+  1x  Find me {{category}} that is of the same brand as the product in this image. It needs to {{description}}.
+  1x  I want {{product}} that are {{colors}}. Can you find an image address of {{target}}?
+  1x  Buy the {{product}} with {{detail}} on the display image (in any color).
+  1x  Search for "{{term}}" and buy me a {{product}} with {{detail}}.
+  1x  Navigate to the category where this image is most likely to be found. Then, find me the cheapest item that costs {{range}} and can {{function}} like in the image shown and add it to my cart.
+  1x  My kid loves horses, and I want a topper for this. Help me add the least expensive one to my wishlist.
+  1x  Find me the cheapest {{item}} with the same {{characteristic}} as the majority of the {{items}} shown in the second image on this page and put it in my cart
+  1x  Find me {{item}}. Add one (in any size) to my cart.

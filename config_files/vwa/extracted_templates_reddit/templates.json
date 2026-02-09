@@ -1,0 +1,715 @@
+{
+  "metadata": {
+    "total_entries": 210,
+    "unique_templates": 88,
+    "source_file": "/mnt/2_1/visualwebarena_my/config_files/vwa/test_reddit.raw.json"
+  },
+  "templates": [
+    {
+      "template": "According to the image, {{question}}?",
+      "count": 1
+    },
+    {
+      "template": "Can you comment '{{comment}}' on the post with {{item}} posted {{timeframe}}?",
+      "count": 3
+    },
+    {
+      "template": "Can you comment '{{comment}}' on the top post (of all time) in {{forum}} that relates to the image?",
+      "count": 2
+    },
+    {
+      "template": "Can you comment on the food from the country in the image and about {{description}} saying '{{comment}}'?",
+      "count": 2
+    },
+    {
+      "template": "Can you find {{post}} and message the poster '{{message}}'?",
+      "count": 2
+    },
+    {
+      "template": "Can you first make a post in {{forum1}} (then afterwards in {{forum2}}) asking for a comparison between the two {{item}} in the shopping tabs? Make sure to include both their SKUs in the title and a picture of the {{condition}}.",
+      "count": 3
+    },
+    {
+      "template": "Can you give me the URL for a gif I could send to my friend about the contrast of investing in a retirement account vs a brokerage account from the hot posts of /f/wallstreetbets?",
+      "count": 1
+    },
+    {
+      "template": "Can you help me find and navigate to the comments section of an image post that has something like this image?",
+      "count": 2
+    },
+    {
+      "template": "Can you help me find and navigate to the comments section of the post with this image?",
+      "count": 3
+    },
+    {
+      "template": "Can you make a post in f/food, title it '{{title}}', add the full sized version of the image with {{food}}, and navigate to it?",
+      "count": 2
+    },
+    {
+      "template": "Can you make a post in {{forum}} titled '{{title}}', add the full sized version of the image on the shopping page most related to the wikipedia page? Finally, navigate to the comments section of it.",
+      "count": 3
+    },
+    {
+      "template": "Can you message the users who posted {{condition}} on this page with '{{message}}'?",
+      "count": 2
+    },
+    {
+      "template": "Can you navigate me to the most commented post by the author of this image? {{hint}}",
+      "count": 3
+    },
+    {
+      "template": "Can you navigate to the post with {{number}} upvotes, which includes a meme of {{item}}? {{hint}}",
+      "count": 2
+    },
+    {
+      "template": "Can you post a comment on the post {{description}} with the text '{{comment}}'?",
+      "count": 3
+    },
+    {
+      "template": "Can you repost the image on this page that would fit best in {{subreddit}} with the same title and text as the original post and take me to the comments section of the post?",
+      "count": 2
+    },
+    {
+      "template": "Can you search for '{{term}}' and find the post with {{number}} upvotes and includes a meme of {{item}}?",
+      "count": 1
+    },
+    {
+      "template": "Can you subscribe me to the most suitable forum where I can find more posts like in the image?",
+      "count": 3
+    },
+    {
+      "template": "Can you subscribe to all subreddits that start with the letter '{{letter}}' and have a {{object}} image in their top 3 posts of all time?",
+      "count": 3
+    },
+    {
+      "template": "Can you subscribe to the forum {{condition}}?",
+      "count": 3
+    },
+    {
+      "template": "Can you take me to the comments section of {{post}} {{condition}}?",
+      "count": 4
+    },
+    {
+      "template": "Can you take me to the post on this page that is most related to the picture on this page?",
+      "count": 2
+    },
+    {
+      "template": "Can you take me to {{sorting}} in the forum for {{location}}?",
+      "count": 2
+    },
+    {
+      "template": "Change my username to the first name of the recipient in the image.",
+      "count": 1
+    },
+    {
+      "template": "Consider {{modifier}}. Downvote the posts {{modifier1}} and upvote the posts {{modifier2}}.",
+      "count": 1
+    },
+    {
+      "template": "Consider {{modifier}}. What is {{question}}?",
+      "count": 2
+    },
+    {
+      "template": "Create a post for each of the following image in the most related forum.",
+      "count": 3
+    },
+    {
+      "template": "Downvote the posts {{modifier1}} and upvote the posts {{modifier2}} but {{action}}.",
+      "count": 1
+    },
+    {
+      "template": "Find a post in {{forum}} that {{description}}. Then, repost the picture to {{forum2}} with {{characteristic}}. Finally, {{action}}.",
+      "count": 1
+    },
+    {
+      "template": "Find an image of {{product}} from OneStopShop, and post it as an image in the {{subreddit}} subreddit with the title as the name of the piece and the artist's name.",
+      "count": 1
+    },
+    {
+      "template": "Find and upvote this post. I think it was posted in {{forum}}.",
+      "count": 3
+    },
+    {
+      "template": "Find me a post in {{forum}} that illustrates the {{company}} revenue in {{datetime}}, and tell me the revenue of {{department}} (in billions).",
+      "count": 3
+    },
+    {
+      "template": "Find me {{description}} of {{object}}. Then, {{action}}.",
+      "count": 2
+    },
+    {
+      "template": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+      "count": 4
+    },
+    {
+      "template": "Find this post and tell me what the top comment says.",
+      "count": 5
+    },
+    {
+      "template": "Gather the title of {{product}} from OneStopShop, and post its full product name in the {{subreddit}} subreddit under the title \"{{post_title}}\"",
+      "count": 1
+    },
+    {
+      "template": "How many comments are {{status}} in the post that {{post_modifier}}",
+      "count": 1
+    },
+    {
+      "template": "How many comments did the post with this image receive? I remember it being one of the top 50 hot posts of {{forum}}.",
+      "count": 3
+    },
+    {
+      "template": "How much money was user {{user}}'s {{security}} worth {{timeframe}} in their screenshot (in {{currency}})?",
+      "count": 1
+    },
+    {
+      "template": "How should I {{task}}? Search {{forum}} for the answer and {{action}}.",
+      "count": 1
+    },
+    {
+      "template": "I am a student at the school in the image. Can you make a post asking for the best {{location}} in the forum for the city my school is in and navigate to it?",
+      "count": 2
+    },
+    {
+      "template": "I {{interaction}}. Can you help me {{action}}?",
+      "count": 2
+    },
+    {
+      "template": "I'd like to find the subreddit for the city this photo was taken in. Can you navigate to it?",
+      "count": 3
+    },
+    {
+      "template": "I'm doing some research about the post with this image. Navigate to the comment url of the recipe posted by the OP in the comments.",
+      "count": 4
+    },
+    {
+      "template": "I'm doing some research about the post with this image. Navigate to the recipe posted by the OP in the comments.",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to do some research about the post with this image. Tell me how many comments mention the word \"{{word}}\".",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to do some research about the post with this image. Tell me how many comments this post has.",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to find this post. Navigate to the comment section for it.",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to find this post. Navigate to the cxfomment section for it.",
+      "count": 1
+    },
+    {
+      "template": "Is there a version of this post with the final results? If so, navigate to the comment section for it.",
+      "count": 1
+    },
+    {
+      "template": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+      "count": 3
+    },
+    {
+      "template": "Leave a comment in this post with the text as the number of {{item}} in the image.",
+      "count": 6
+    },
+    {
+      "template": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+      "count": 2
+    },
+    {
+      "template": "Leave a comment in this post with the text as the trading loss of the OP in euros.",
+      "count": 1
+    },
+    {
+      "template": "Make a Reddit post with this image ({{image_url}}) in the most relevant subreddit, and navigate to its comments section.",
+      "count": 1
+    },
+    {
+      "template": "Make a comment in this post {{criteria}}.",
+      "count": 2
+    },
+    {
+      "template": "Navigate to a subreddit where I can find the most similar content to this image.",
+      "count": 2
+    },
+    {
+      "template": "Navigate to the comments section of a post that {{condition}}.",
+      "count": 4
+    },
+    {
+      "template": "Navigate to the comments section of the first image post in {{subreddit}} that {{attribute}}.",
+      "count": 2
+    },
+    {
+      "template": "Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.",
+      "count": 4
+    },
+    {
+      "template": "Navigate to the {{status}} across {{forums}}. {{question}}?",
+      "count": 3
+    },
+    {
+      "template": "Navigate to {{object}} that {{description}}.",
+      "count": 3
+    },
+    {
+      "template": "Send a direct message to the user that created the post that contains the following picture.",
+      "count": 3
+    },
+    {
+      "template": "Subscribe to a forum that contains {{picture}}.",
+      "count": 3
+    },
+    {
+      "template": "Subscribe to the forum which is most likely to include discussions related to the image.",
+      "count": 3
+    },
+    {
+      "template": "Take me to the post for the joke on this page that is most likely to take place in the following image?",
+      "count": 1
+    },
+    {
+      "template": "Upvote all the posts that {{modifier}} on this page.",
+      "count": 5
+    },
+    {
+      "template": "What is the birth year of the {{character}}? Answer using the Wikipedia site in the second tab.",
+      "count": 3
+    },
+    {
+      "template": "What is the sum of the number of upvotes for the posts on this page that have {{item}}?",
+      "count": 2
+    },
+    {
+      "template": "What is the top comment for the most popular post of all time (across all forums) containing {{subject}} in the Wikipedia tab?",
+      "count": 2
+    },
+    {
+      "template": "What is the top comment on the post about {{condition}}?",
+      "count": 2
+    },
+    {
+      "template": "What {{question}} that {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "What {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 14
+    },
+    {
+      "template": "What {{question}} {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "What {{question}} {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 1
+    },
+    {
+      "template": "What {{question}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 1
+    },
+    {
+      "template": "When {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 1
+    },
+    {
+      "template": "Who {{question}} that {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "Who {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 2
+    },
+    {
+      "template": "Who {{question}} {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "Who {{question}}, {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 2
+    },
+    {
+      "template": "Write a story about this picture and post it in the most relevant subreddit.",
+      "count": 2
+    },
+    {
+      "template": "{{intro}}. Can you navigate to the comments section of a post {{description}}?",
+      "count": 2
+    },
+    {
+      "template": "{{intro}}. Can you tell me {{information}}?{{action}}",
+      "count": 2
+    },
+    {
+      "template": "{{question}} the picture {{modifier}} in {{forum}}?",
+      "count": 6
+    },
+    {
+      "template": "{{question}}? Leave a comment replying to user \"{{user}}\" with the following format: {{format}}.",
+      "count": 3
+    },
+    {
+      "template": "{{question}}? Leave a comment with the following format: {{format}}.",
+      "count": 3
+    },
+    {
+      "template": "{{question}}? {{action}} and create a comment with the following format: {{comment_format}}.",
+      "count": 1
+    }
+  ],
+  "templates_by_frequency": [
+    {
+      "template": "What {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 14
+    },
+    {
+      "template": "{{question}} the picture {{modifier}} in {{forum}}?",
+      "count": 6
+    },
+    {
+      "template": "Leave a comment in this post with the text as the number of {{item}} in the image.",
+      "count": 6
+    },
+    {
+      "template": "Find this post and tell me what the top comment says.",
+      "count": 5
+    },
+    {
+      "template": "Upvote all the posts that {{modifier}} on this page.",
+      "count": 5
+    },
+    {
+      "template": "I'm doing some research about the post with this image. Navigate to the comment url of the recipe posted by the OP in the comments.",
+      "count": 4
+    },
+    {
+      "template": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+      "count": 4
+    },
+    {
+      "template": "Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.",
+      "count": 4
+    },
+    {
+      "template": "Navigate to the comments section of a post that {{condition}}.",
+      "count": 4
+    },
+    {
+      "template": "Can you take me to the comments section of {{post}} {{condition}}?",
+      "count": 4
+    },
+    {
+      "template": "Can you help me find and navigate to the comments section of the post with this image?",
+      "count": 3
+    },
+    {
+      "template": "Find and upvote this post. I think it was posted in {{forum}}.",
+      "count": 3
+    },
+    {
+      "template": "I'd like to find the subreddit for the city this photo was taken in. Can you navigate to it?",
+      "count": 3
+    },
+    {
+      "template": "Navigate to {{object}} that {{description}}.",
+      "count": 3
+    },
+    {
+      "template": "{{question}}? Leave a comment with the following format: {{format}}.",
+      "count": 3
+    },
+    {
+      "template": "{{question}}? Leave a comment replying to user \"{{user}}\" with the following format: {{format}}.",
+      "count": 3
+    },
+    {
+      "template": "Subscribe to a forum that contains {{picture}}.",
+      "count": 3
+    },
+    {
+      "template": "Send a direct message to the user that created the post that contains the following picture.",
+      "count": 3
+    },
+    {
+      "template": "Create a post for each of the following image in the most related forum.",
+      "count": 3
+    },
+    {
+      "template": "Navigate to the {{status}} across {{forums}}. {{question}}?",
+      "count": 3
+    },
+    {
+      "template": "What is the birth year of the {{character}}? Answer using the Wikipedia site in the second tab.",
+      "count": 3
+    },
+    {
+      "template": "Find me a post in {{forum}} that illustrates the {{company}} revenue in {{datetime}}, and tell me the revenue of {{department}} (in billions).",
+      "count": 3
+    },
+    {
+      "template": "Can you navigate me to the most commented post by the author of this image? {{hint}}",
+      "count": 3
+    },
+    {
+      "template": "Subscribe to the forum which is most likely to include discussions related to the image.",
+      "count": 3
+    },
+    {
+      "template": "How many comments did the post with this image receive? I remember it being one of the top 50 hot posts of {{forum}}.",
+      "count": 3
+    },
+    {
+      "template": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+      "count": 3
+    },
+    {
+      "template": "Can you subscribe to all subreddits that start with the letter '{{letter}}' and have a {{object}} image in their top 3 posts of all time?",
+      "count": 3
+    },
+    {
+      "template": "Can you subscribe to the forum {{condition}}?",
+      "count": 3
+    },
+    {
+      "template": "Can you post a comment on the post {{description}} with the text '{{comment}}'?",
+      "count": 3
+    },
+    {
+      "template": "Can you make a post in {{forum}} titled '{{title}}', add the full sized version of the image on the shopping page most related to the wikipedia page? Finally, navigate to the comments section of it.",
+      "count": 3
+    },
+    {
+      "template": "Can you subscribe me to the most suitable forum where I can find more posts like in the image?",
+      "count": 3
+    },
+    {
+      "template": "Can you comment '{{comment}}' on the post with {{item}} posted {{timeframe}}?",
+      "count": 3
+    },
+    {
+      "template": "Can you first make a post in {{forum1}} (then afterwards in {{forum2}}) asking for a comparison between the two {{item}} in the shopping tabs? Make sure to include both their SKUs in the title and a picture of the {{condition}}.",
+      "count": 3
+    },
+    {
+      "template": "I'm trying to find this post. Navigate to the comment section for it.",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to do some research about the post with this image. Tell me how many comments mention the word \"{{word}}\".",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to do some research about the post with this image. Tell me how many comments this post has.",
+      "count": 2
+    },
+    {
+      "template": "Can you help me find and navigate to the comments section of an image post that has something like this image?",
+      "count": 2
+    },
+    {
+      "template": "Navigate to a subreddit where I can find the most similar content to this image.",
+      "count": 2
+    },
+    {
+      "template": "Write a story about this picture and post it in the most relevant subreddit.",
+      "count": 2
+    },
+    {
+      "template": "Navigate to the comments section of the first image post in {{subreddit}} that {{attribute}}.",
+      "count": 2
+    },
+    {
+      "template": "Who {{question}}, {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 2
+    },
+    {
+      "template": "Who {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 2
+    },
+    {
+      "template": "Make a comment in this post {{criteria}}.",
+      "count": 2
+    },
+    {
+      "template": "Find me {{description}} of {{object}}. Then, {{action}}.",
+      "count": 2
+    },
+    {
+      "template": "Consider {{modifier}}. What is {{question}}?",
+      "count": 2
+    },
+    {
+      "template": "I'm doing some research about the post with this image. Navigate to the recipe posted by the OP in the comments.",
+      "count": 2
+    },
+    {
+      "template": "Can you navigate to the post with {{number}} upvotes, which includes a meme of {{item}}? {{hint}}",
+      "count": 2
+    },
+    {
+      "template": "I {{interaction}}. Can you help me {{action}}?",
+      "count": 2
+    },
+    {
+      "template": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+      "count": 2
+    },
+    {
+      "template": "{{intro}}. Can you tell me {{information}}?{{action}}",
+      "count": 2
+    },
+    {
+      "template": "{{intro}}. Can you navigate to the comments section of a post {{description}}?",
+      "count": 2
+    },
+    {
+      "template": "What is the top comment for the most popular post of all time (across all forums) containing {{subject}} in the Wikipedia tab?",
+      "count": 2
+    },
+    {
+      "template": "Can you find {{post}} and message the poster '{{message}}'?",
+      "count": 2
+    },
+    {
+      "template": "Can you repost the image on this page that would fit best in {{subreddit}} with the same title and text as the original post and take me to the comments section of the post?",
+      "count": 2
+    },
+    {
+      "template": "Can you comment on the food from the country in the image and about {{description}} saying '{{comment}}'?",
+      "count": 2
+    },
+    {
+      "template": "Can you take me to {{sorting}} in the forum for {{location}}?",
+      "count": 2
+    },
+    {
+      "template": "I am a student at the school in the image. Can you make a post asking for the best {{location}} in the forum for the city my school is in and navigate to it?",
+      "count": 2
+    },
+    {
+      "template": "Can you make a post in f/food, title it '{{title}}', add the full sized version of the image with {{food}}, and navigate to it?",
+      "count": 2
+    },
+    {
+      "template": "What is the sum of the number of upvotes for the posts on this page that have {{item}}?",
+      "count": 2
+    },
+    {
+      "template": "Can you comment '{{comment}}' on the top post (of all time) in {{forum}} that relates to the image?",
+      "count": 2
+    },
+    {
+      "template": "Can you take me to the post on this page that is most related to the picture on this page?",
+      "count": 2
+    },
+    {
+      "template": "Can you message the users who posted {{condition}} on this page with '{{message}}'?",
+      "count": 2
+    },
+    {
+      "template": "What is the top comment on the post about {{condition}}?",
+      "count": 2
+    },
+    {
+      "template": "I'm trying to find this post. Navigate to the cxfomment section for it.",
+      "count": 1
+    },
+    {
+      "template": "What {{question}} {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "Make a Reddit post with this image ({{image_url}}) in the most relevant subreddit, and navigate to its comments section.",
+      "count": 1
+    },
+    {
+      "template": "Gather the title of {{product}} from OneStopShop, and post its full product name in the {{subreddit}} subreddit under the title \"{{post_title}}\"",
+      "count": 1
+    },
+    {
+      "template": "Find an image of {{product}} from OneStopShop, and post it as an image in the {{subreddit}} subreddit with the title as the name of the piece and the artist's name.",
+      "count": 1
+    },
+    {
+      "template": "What {{question}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 1
+    },
+    {
+      "template": "What {{question}} {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 1
+    },
+    {
+      "template": "When {{question}} that {{modifier}}? Answer using the information from the Wikipedia site in the second tab.",
+      "count": 1
+    },
+    {
+      "template": "Who {{question}} {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "What {{question}} that {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "Who {{question}} that {{modifier}}?",
+      "count": 1
+    },
+    {
+      "template": "How many comments are {{status}} in the post that {{post_modifier}}",
+      "count": 1
+    },
+    {
+      "template": "Find a post in {{forum}} that {{description}}. Then, repost the picture to {{forum2}} with {{characteristic}}. Finally, {{action}}.",
+      "count": 1
+    },
+    {
+      "template": "How should I {{task}}? Search {{forum}} for the answer and {{action}}.",
+      "count": 1
+    },
+    {
+      "template": "{{question}}? {{action}} and create a comment with the following format: {{comment_format}}.",
+      "count": 1
+    },
+    {
+      "template": "Downvote the posts {{modifier1}} and upvote the posts {{modifier2}} but {{action}}.",
+      "count": 1
+    },
+    {
+      "template": "Consider {{modifier}}. Downvote the posts {{modifier1}} and upvote the posts {{modifier2}}.",
+      "count": 1
+    },
+    {
+      "template": "According to the image, {{question}}?",
+      "count": 1
+    },
+    {
+      "template": "Can you search for '{{term}}' and find the post with {{number}} upvotes and includes a meme of {{item}}?",
+      "count": 1
+    },
+    {
+      "template": "Change my username to the first name of the recipient in the image.",
+      "count": 1
+    },
+    {
+      "template": "Leave a comment in this post with the text as the trading loss of the OP in euros.",
+      "count": 1
+    },
+    {
+      "template": "Is there a version of this post with the final results? If so, navigate to the comment section for it.",
+      "count": 1
+    },
+    {
+      "template": "Take me to the post for the joke on this page that is most likely to take place in the following image?",
+      "count": 1
+    },
+    {
+      "template": "Can you give me the URL for a gif I could send to my friend about the contrast of investing in a retirement account vs a brokerage account from the hot posts of /f/wallstreetbets?",
+      "count": 1
+    },
+    {
+      "template": "How much money was user {{user}}'s {{security}} worth {{timeframe}} in their screenshot (in {{currency}})?",
+      "count": 1
+    }
+  ]
+}

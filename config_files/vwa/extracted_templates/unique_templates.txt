@@ -1,0 +1,152 @@
+Add all the items I need to make this to my shopping cart.
+Add all the items with {{quality}} on this page into my cart
+Add something like the {{item}} to my shopping cart.
+Add something like {{attribute}} to my wish list.
+Add something like {{item}}, but {{attribute}}, from this page to my wish list.
+Add the least expensive {{item}} that can hold {{storable}} to my shopping cart.
+Add the product that {{attribute}} from my open tabs to the shopping cart
+Add the {{attribute}} one in the {{order}} to my shopping cart.
+Add the {{product}} in the {{location}} to my wish list.
+Add the {{product}} to my wish list.
+Add the {{product}} {{condition}} to my wish list.
+Add this (in any size) to my cart if {{condition}}
+Add this exact product to my shopping cart. I think it is in the "{{category}}" category.
+Add this exact product to my wish list. I think it might be in the "{{category}}" category but I'm not certain.
+Add this to my cart if {{condition}}
+Add to my cart {{item}} {{condition}}.
+Add {{quantity}} of {{item}} from this page to my shopping cart.
+Between {{item1}} and {{item2}}, add the cheaper one to my cart and the other to my wishlist.
+Buy me a {{product}} that has a skyline of the city shown in this image.
+Buy me a {{product}} that references a sports team from this city.
+Buy me a {{product}} that references the city in the image.
+Buy me a {{product}} that {{relation}} in the image{{detail}}.
+Buy me a {{product}} with {{detail}}.
+Buy me something like {{item}}, but {{attribute}}, from this page.
+Buy me {{item}} to {{address}}.
+Buy the least expensive {{product}} from "{{category}}" category.
+Buy the {{product}} on the page {{detail}}.
+Buy the {{product}} with {{detail}} on the display image (in any color).
+Buy the {{product}} with {{detail}} on the packaging (in any size).
+Buy the {{product}} with {{detail}}.
+Buy {{item}} while minimizing costs.
+Buy {{item}} {{condition}}.
+Buy {{product}} with {{detail}} on the packaging.
+Can you add all the {{items}} {{condition}} to my shopping cart?
+Can you add the item {{offset}} the {{item}} to my cart?
+Can you add the most expensive {{category}} to my cart that is less than ${{dollars}} and {{color}}?
+Can you add the product that looks most like {{emojis}} to my cart?
+Can you add the {{item}} that look like they are from {{reference}} to my wishlist?
+Can you add the {{item}} with {{number}} stars to my cart?
+Can you add {{items}} to the comparison page?
+Can you add {{item}} to my cart and take me to the final checkout screen before placing the order?
+Can you add {{item}} {{condition}} to my wishlist?
+Can you buy the {{item}} in the "{{product_category}}" category?
+Can you find me {{category}} that combines the {{attributes}} of the items in the following images and buy it for me?
+Can you find me {{category}} that combines the {{attributes}} of the items in the following images?
+Can you find me {{category}} that combines the {{attribute}} of the items in the following images?
+Can you find me {{category}} that is the combination of the following images and buy it for me?
+Can you leave a {{number}} star review on {{product}} saying "{{review}}"?
+Can you order the cheapest thing {{item}}?
+Can you order the item on this page that is cheaper between {{item1}} and {{item2}} and just leave the other one in my cart? My size is {{size}}.
+Can you order the shoes on this page that I would most likely wear if I was in the image{{size}}?
+Can you order the {{item}} {{condition}}?
+Can you order {{product}} and let me know the final price?
+Can you return an image link of the {{item}} in another angle?
+Can you return an image link showing the {{item}} in another angle?
+Can you return an image url from an item on this page showing {{action}} {{item}}?
+Can you return the link of an image {{description}}?
+Can you set the {{side}} side address to {{address}}? My phone number is also {{number}}.
+Can you take me to the page that has this {{subject}} {{item}}?
+Change my default shipping address to the place shown in the image.
+Empty my cart first and add all the items (in any color) from this page to my shopping cart which {{condition}}.
+Explore the "{{category}}" category listed by ascending price and add the first {{design}} item to my shopping cart.
+Explore the "{{category}}" category listed by ascending price and tell me the color of the {{order}} item in the first row.
+Explore the "{{category}}" category listed by ascending price and tell me the colors of the {{order}} item in the first row.
+Find me the cheapest item in the "{{category}}" category that comes in {{shape}}.
+Find me the cheapest item that costs {{range}} and can {{function}} like in the image shown and add it to my cart.
+Find me the cheapest {{item}} with the same {{characteristic}} as the majority of the {{items}} shown in the second image on this page and put it in my cart
+Find me the cheapest {{item}} {{condition}} and add one of any size to my shopping cart.
+Find me the cheapest {{property}} version of the thing in this image and add it to my cart please.
+Find me {{category}} of the same brand as the product in this picture.
+Find me {{category}} of the same brand as the product in this picture. It needs to {{description}}.
+Find me {{category}} that are of the same brand as the product in this picture. It needs to {{description}}.
+Find me {{category}} that is of the same brand as products in one of the following pictures and buy {{quantity}} for me. It needs to {{description}}.
+Find me {{category}} that is of the same brand as products in one of the following pictures. It needs to {{description}}.
+Find me {{category}} that is of the same brand as the product in this image. It needs to {{description}}.
+Find me {{category}} that is of the same brand as the product in this picture and buy {{quantity}} for me. It needs to {{description}}.
+Find me {{category}} that {{relation1}} first picture and has {{relation2}} second picture. It needs to have {{relation3}} third picture.
+Find me {{item}} that {{attribute}} the picture.
+Find me {{item}}.
+Find me {{item}}. Add one (in any size) to my cart.
+Find {{item}} {{condition}}. Add it to my shopping cart.
+From {{location}}, can you add the two items with the best ratings to my cart, and the others to my wishlist?
+Given the image, buy the {{product}} which contain the same object in the image on its design.
+Help me find all items between {{lower}} and {{upper}} that look like the image below and put them in my cart.
+Help me to add the cheapest {{color}} {{item}} to my wishlist
+How many calories are in {{item}}?
+How many {{attribute}} does the box with the {{object}} have?
+How much does the {{item}} weigh (in {{units}})?
+How much is the {{item}} with {{secondary_item}} in the picture on this page?
+I am a fan of {{organization}}. Can you find a url of an image of an item in the "{{product_category}}" category I can buy to support them?
+I am a fan of {{organization}}. Can you find an image address of a {{product}} with their logo that I can wear to support them?
+I am doing a market survey for one stop market, show me the most expensive {{product}} from "{{product_category}}" category
+I have {{subjects}}, can you order enough {{product}} so each can get their own?
+I like {{attribute}}. Can you add something like that {{condition}} to my wishlist, if there's one?
+I need something like this for my apartment. Can you add one to my wishlist?
+I need something to store {{item}}. Add one to my shopping cart.
+I really like the {{item}}, but I'm not a fan of the color. Can you see if there's one in {{attribute}} on this page, and if so, add the cheapest one to my wishlist?
+I really like these {{product}}, but I am not satisfied with the color. Could you find me an item on this page for these {{product}} with a {{shadeChoice}} shade or color?
+I really like {{stuff}}. Can you find me {{product}} and add it to my shopping cart?
+I really like {{stuff}}. Can you find me {{product}} and buy {{quantity}} for me?
+I remembered that I ordered something like this, can you show me the corresponding order page?
+I want to buy this specific item, but only if it's brand new. Can you add one from this page to my cart?
+I want to eat this food, but I am {{restriction}}. Can you order the closest thing to this from the "{{category}}" category that fits my dietary requirements?
+I want {{product}} that are {{colors}}. Can you find an image address of {{target}}?
+I'd like to share the {{item}} with my friend, can you return an image link {{description}}?
+I'm interested in the {{item}}. Can you return an image link showing {{image_desc}}?
+I've been thinking about ordering {{item}}, but {{condition}}. Can you add it to my shopping cart if it exists?
+List out reviewers, if exist, who mention {{description}} for the {{product}}
+My kid loves horses, and I want a topper for this. Help me add the least expensive one to my wishlist.
+Navigate to the category where I can find {{item}} that can help me {{function}}. Add the cheapest one to my cart.
+Navigate to the category where this image is most likely to be found. Then, find me the cheapest item that costs {{range}} and can {{function}} like in the image shown and add it to my cart.
+Order {{product}}. If the shipping is more than 7% of the total price, leave a 3 star review mentioning it, otherwise 5.
+Place the item with {{quality}} on this page into my cart
+Please add the cheapest {{description}} {{item}} to my shopping cart
+Please add the item in the {{row}} row, {{column}} column to the shopping cart.
+Please add to my shopping cart all the items from this page that can connect these devices from the two images.
+Please show me the product page for the item in the {{row}} row, {{column}} column.
+Prepend the country code of {{country}} to the phone number of my account profile.
+Purchase the cheapest {{item}}, in {{color}}.
+Purchase the exact item shown in the image.
+Put the least expensive item that has the thing in the first image {{relationship}} the thing in the second image in my wishlist
+Rate {{product}} in the {{category}} category with {{num_star}} stars, using my nickname {{nickname}}?
+Return an image link from one of the products here showing {{item}}.
+Return an image link of an image showing how this item looks like {{attribute}}.
+Return an image link of {{item}}.
+Search for "{{keyword}}" and show me the {{item_order}} item {{condition}}
+Search for "{{term}}" and buy me a {{product}} with {{detail}}.
+Show me the first {{design}} in the search results for "{{product}}".
+Show me the product page of the {{item}}.
+Show me the {{order}} in the "{{product}}" search results by {{sorting_order}}.
+Tell me how much this exact item costs on OneStopMarket.
+Tell me the price of the {{product}} in the {{location}}.
+Tell me the price of the {{product}}.
+That {{item}} in the Wikipedia page looks delicious! Can you order {{descriptors}} for me in OneStopShop?
+The panda toothbrush box is cute, can you return an image link showing the design with other animals if possible?
+This would make a great birthday gift for my friend! Can you order another one on this site {{modification}} to {{address}}? My phone number is also {{number}} in case it is needed.
+What colors do the {{item}} come in?
+What is the color of the {{type}} item in the "{{product_category}}" category?
+What is the name of the monster on that {{color}} box in the bottom row?
+What is the price of the most expensive {{color}} product in the "{{product_category}}" category?
+What is the price range for products in the {{region}}?
+What is the width and length of this product in inches? (Not the package size)
+What is the {{attribute}} and price of the cheapest item in the "{{category}}" category?
+What is the {{attribute}} of {{item}} that has the most similar pattern as {{property}} in the picture in this page?
+What is the {{size_attribute}} of the {{product}} with {{attribute}} in {{unit}}?
+What size of {{item}} should I buy if {{condition}}?
+What {{query}} {{question}}?
+{{description}}, can you add one to my wishlist?
+{{description}}, can you add the most similar one on this page to my wishlist?
+{{information}}. Can you add {{items}} to my cart?
+{{modifier}} {{item}} to my cart and order it only if the total comes out to less than {{amount}}?
+{{modifier}}List the full product names of {{color}} {{product}} and tell me the price range of the available products
