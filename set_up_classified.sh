@@ -1,13 +1,13 @@
-pip install --upgrade gdown
-gdown https://drive.google.com/uc?id=1m79lp84yXfqdTBHr6IS7_1KkL4sDSemR
+# pip install --upgrade gdown
+# gdown https://drive.google.com/uc?id=1m79lp84yXfqdTBHr6IS7_1KkL4sDSemR
 
-unzip -o classifieds_docker_compose.zip
+# unzip -o classifieds_docker_compose.zip
 cd classifieds_docker_compose
 
 # Auto-detect public IP if SERVER_HOSTNAME is not set
 if [ -z "$SERVER_HOSTNAME" ]; then
     echo "Detecting public IP address..."
-    SERVER_HOSTNAME=$(curl -s ip.sb)
+    SERVER_HOSTNAME=158.130.4.229
 
     if [ -z "$SERVER_HOSTNAME" ]; then
         echo "Warning: Failed to auto-detect IP. Defaulting to 127.0.0.1"

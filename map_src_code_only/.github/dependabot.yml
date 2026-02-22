@@ -1,0 +1,53 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    versioning-strategy: "increase-if-necessary"
+    directory: "/"
+    ignore:
+      - dependency-name: connection_pool
+        update-types:
+          - version-update:semver-major
+      - dependency-name: minitest
+        update-types:
+          - version-update:semver-major
+      - dependency-name: rails
+        update-types:
+          - version-update:semver-major
+          - version-update:semver-minor
+      - dependency-name: sass-embedded
+      - dependency-name: uri
+    groups:
+      rails:
+        applies-to: version-updates
+        patterns:
+          - "rails"
+      rubocop:
+        applies-to: version-updates
+        patterns:
+          - "rubocop*"
+      dependencies:
+        applies-to: version-updates
+        exclude-patterns:
+          - "rails"
+          - "rubocop*"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    versioning-strategy: "increase-if-necessary"
+    directory: "/"
+    groups:
+      dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    groups:
+      dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"
+    schedule:
+      interval: "weekly"
